@@ -1,3 +1,5 @@
+import math
+
 def line():
     def calcular_y(a,b,x):
         return a*x+b
@@ -16,7 +18,7 @@ def line():
     y1= calcular_y(a,b,x1)
     y2=calcular_y(a,b,x2)
    
-    print(f"\nPara la siguiente ecuacion:\nY = {a}X+{B}")
+    print(f"\nPara la siguiente ecuacion:\nY = {a}X+{b}")
 
     print("\nDados los siguientes puntos:")
     print(f"P1 ({x1} , {y1})")
@@ -24,3 +26,4 @@ def line():
 
     distancia = calcular_distancia(x1, y1, x2, y2)
     print(f"\nLa distancia entre ellos es: {distancia}")
+line()
