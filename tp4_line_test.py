@@ -24,4 +24,3 @@ def line():
 
     distancia = calcular_distancia(x1, y1, x2, y2)
     print(f"\nLa distancia entre ellos es: {distancia}")
-    line()
